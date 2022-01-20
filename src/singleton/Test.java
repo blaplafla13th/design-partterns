@@ -1,4 +1,6 @@
-public class Test{ 
+package singleton;
+
+public class Test{
    public static void main(String[] args) {
         Log log = Log.getInstance();
         final String LOG_PATH = "log.txt";

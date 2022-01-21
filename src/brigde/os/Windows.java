@@ -1,12 +1,14 @@
 package brigde.os;
 
 import brigde.Bridge;
+import brigde.Program;
 
+import java.io.File;
 import java.io.IOException;
 
 public class Windows extends Bridge {
-    public Windows() {
-        super('\\');
+    public Windows(Program program) {
+        super('\\', program);
     }
 
     @Override
@@ -16,5 +18,8 @@ public class Windows extends Bridge {
         } catch (InterruptedException | IOException e) {
             e.printStackTrace();
         }
+    }
+    public void readFile(File file){
+        program.readFile(file);
     }
 }

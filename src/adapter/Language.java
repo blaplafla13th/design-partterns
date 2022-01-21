@@ -1,5 +1,7 @@
 package adapter;
 
 public interface Language {
-    void sendMessage(String message);
+    String command(int command);
+    String status(int status);
+    String run(String sth);
 }

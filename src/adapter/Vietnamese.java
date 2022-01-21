@@ -24,7 +24,14 @@ public class Vietnamese implements Language {
     }
 
     @Override
-    public void sendMessage(String message) {
-        System.out.println(translateMessage(message));
+    public String command(int command){
+        return translateMessage(program.command(command));
+    }
+    @Override
+    public String status(int status){
+        return translateMessage(program.status(status));
+    }
+    public String run(String sth){
+        return translateMessage(program.run(sth));
     }
 }

@@ -13,10 +13,11 @@ public class Client {
         System.out.println(program.run(something));
 
         System.out.println("Client use adapter:");
-        Language client = new Vietnamese(program);
-        client.sendMessage(program.command(-1));
+        Language program1 = new Vietnamese(program);
+        System.out.println(program1.command(-1));
         something= input.nextLine();
-        client.sendMessage(program.command(1));
-        client.sendMessage(program.run(something));
+        System.out.println(program1.command(1));
+        System.out.println(program1.run(something));
+
     }
 }

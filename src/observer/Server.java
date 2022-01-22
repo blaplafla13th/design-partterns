@@ -7,8 +7,10 @@ public class Server {
         Scanner input = new Scanner(System.in);
         ChatUpdater chatThread = new ChatUpdater();
         User user1 = new User1(chatThread);
+        user1.getLatestChat();
         User user2 = new User2(chatThread);
-        chatThread.addChat("Server:Hello all of you");
+        user2.getLatestChat();
+        chatThread.addChat("Server:Welcome to chat Server");
         System.out.println("User1:");
         user1.getAllChat();
         System.out.println("User2:");

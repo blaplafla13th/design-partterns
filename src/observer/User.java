@@ -16,4 +16,7 @@ public abstract class User {
     public void addChat(String info){
         chatUpdater.addChat(this.getClass().getName()+":"+info);
     }
+    public void getLatestChat(){
+        System.out.println(listMessage.get(listMessage.size()-1));
+    }
 }

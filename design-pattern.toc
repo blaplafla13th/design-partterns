@@ -1,0 +1,87 @@
+\contentsline {paragraph}{}{}{Doc-Start}%
+\contentsline {paragraph}{}{}{Doc-Start}%
+\contentsline {paragraph}{}{}{Doc-Start}%
+\contentsline {part}{I\hspace {1em}Tổng quát}{1}{part.1}%
+\contentsline {subsection}{\numberline {0.1}Định nghĩa}{1}{subsection.0.1}%
+\contentsline {subsection}{\numberline {0.2}Đặc điểm}{1}{subsection.0.2}%
+\contentsline {subsection}{\numberline {0.3}Phân loại}{1}{subsection.0.3}%
+\contentsline {part}{II\hspace {1em}Nhóm Khởi tạo - Creational Pattern}{3}{part.2}%
+\contentsline {section}{\numberline {1}Singleton}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Định Nghĩa Và Mô Hình Cấu Trúc}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Đặc điểm}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Mục Đích Sử Dụng}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Code khuôn mẫu}{5}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Giải thích Design Pattern}{5}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Ví Dụ Sử Dụng Trong Thực Tế}{6}{subsection.1.6}%
+\contentsline {section}{\numberline {2}Builder}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Định Nghĩa Và Mô Hình Cấu Trúc}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Đặc điểm}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Mục Đích Sử Dụng}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Code khuôn mẫu}{8}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Giải thích Design Pattern}{10}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Ví Dụ Sử Dụng Trong Thực Tế}{11}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Factory}{12}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Định Nghĩa Và Mô Hình Cấu Trúc}{12}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Đặc điểm}{12}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Mục Đích Sử Dụng}{13}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Code khuôn mẫu}{13}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Giải thích Design Pattern}{14}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Ví Dụ Sử Dụng Trong Thực Tế}{15}{subsection.3.6}%
+\contentsline {part}{III\hspace {1em}Nhóm Cấu trúc - Structural Pattern}{17}{part.3}%
+\contentsline {section}{\numberline {4}Adapter}{18}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Định Nghĩa Và Mô Hình Cấu Trúc}{18}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Đặc điểm}{18}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Mục Đích Sử Dụng}{18}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Code khuôn mẫu}{19}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Giải thích Design Pattern}{20}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Ví Dụ Sử Dụng Trong Thực Tế}{20}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Bridge}{22}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Định Nghĩa Và Mô Hình Cấu Trúc}{22}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Đặc điểm}{22}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Mục Đích Sử Dụng}{22}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Code khuôn mẫu}{23}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Giải thích Design Pattern}{24}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Ví Dụ Sử Dụng Trong Thực Tế}{25}{subsection.5.6}%
+\contentsline {section}{\numberline {6}Decorator}{27}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Định Nghĩa Và Mô Hình Cấu Trúc}{27}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Đặc điểm}{27}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Mục Đích Sử Dụng}{28}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Code khuôn mẫu}{28}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Giải thích Design Pattern}{29}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Ví Dụ Sử Dụng Trong Thực Tế}{30}{subsection.6.6}%
+\contentsline {part}{IV\hspace {1em}Nhóm hành vi - Behavioral Pattern}{32}{part.4}%
+\contentsline {section}{\numberline {7}Observer}{33}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Định Nghĩa Và Mô Hình Cấu Trúc}{33}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Đặc điểm}{33}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Mục Đích Sử Dụng}{33}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Code khuôn mẫu}{34}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Giải thích Design Pattern}{36}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Ví Dụ Sử Dụng Trong Thực Tế}{36}{subsection.7.6}%
+\contentsline {section}{\numberline {8}Iterator}{38}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Định Nghĩa Và Mô Hình Cấu Trúc}{38}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Đặc điểm}{38}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Mục Đích Sử Dụng}{39}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Code khuôn mẫu}{39}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Giải thích Design Pattern}{39}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Ví Dụ Sử Dụng Trong Thực Tế}{39}{subsection.8.6}%
+\contentsline {section}{\numberline {9}Command}{41}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Định Nghĩa Và Mô Hình Cấu Trúc}{41}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Đặc điểm}{41}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Mục Đích Sử Dụng}{42}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Code khuôn mẫu}{42}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Giải thích Design Pattern}{42}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}Ví Dụ Sử Dụng Trong Thực Tế}{42}{subsection.9.6}%
+\contentsline {section}{\numberline {10}Strategy}{43}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Định Nghĩa Và Mô Hình Cấu Trúc}{43}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Đặc điểm}{43}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Mục Đích Sử Dụng}{43}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Code khuôn mẫu}{44}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}Giải thích Design Pattern}{45}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.6}Ví Dụ Sử Dụng Trong Thực Tế}{45}{subsection.10.6}%
+\contentsline {part}{V\hspace {1em}THAM KHẢO}{47}{part.5}%
+\contentsline {section}{\numberline {11}Tài liệu tham khảo}{47}{section.11}%
+\contentsline {section}{\numberline {12}Link Project bài báo cáo}{47}{section.12}%
+\contentsline {paragraph}{}{47}{section.12}%
+\contentsline {paragraph}{}{47}{section.12}%
+\contentsline {paragraph}{}{47}{section.12}%
+\contentsfinish 

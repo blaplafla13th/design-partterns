@@ -8,7 +8,7 @@ public class ChatUpdater {
 
     public void add(User user) {
         users.add(user);
-        addChat("Server: Hello "+user.getClass().getName());
+        addChat("Server: Hello "+user.getUserName());
     }
 
     public String getChat() {

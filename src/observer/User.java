@@ -3,12 +3,22 @@ package observer;
 import java.util.ArrayList;
 
 public class User {
-    protected ChatUpdater chatUpdater;
-    protected ArrayList<String> listMessage=new ArrayList<>();
+    private String userName;
+    private ChatUpdater chatUpdater;
+    private ArrayList<String> listMessage=new ArrayList<>();
 
-    public User(ChatUpdater chatUpdater) {
-        this.chatUpdater =chatUpdater;
+    public User(String userName, ChatUpdater chatUpdater) {
+        this.chatUpdater=chatUpdater;
+        this.userName=userName;
         this.chatUpdater.add(this);
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     public void update() {
@@ -20,7 +30,7 @@ public class User {
         }
     }
     public void addChat(String info){
-        chatUpdater.addChat(this.getClass().getName()+":"+info);
+        chatUpdater.addChat(userName+":"+info);
     }
     public void getLatestChat(){
         System.out.println(listMessage.get(listMessage.size()-1));

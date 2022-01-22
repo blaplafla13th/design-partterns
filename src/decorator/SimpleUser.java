@@ -40,6 +40,15 @@ public class SimpleUser implements User {
     }
 
     @Override
+    public void editAction(String beforeAction, String afterAction) {
+        for (int i = 0; i < listAction.size(); i++) {
+            if (listAction.get(i).equals(beforeAction)){
+                listAction.set(i,afterAction);
+            }
+        }
+    }
+
+    @Override
     public void removeAction(String action) {
         for (int i = 0; i < listAction.size(); i++) {
             if (listAction.get(i).equals(action)){

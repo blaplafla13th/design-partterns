@@ -6,5 +6,6 @@ public interface User {
     void action(String action);
     void removeAction(String action);
     void addAction(String action);
+    void editAction(String beforeAction,String afterAction);
     void getListAction();
 }

@@ -10,14 +10,6 @@ public abstract class ExtendUser implements User {
         this.user = user;
     }
 
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
-
     @Override
     public String getInfo() {
         return user.getInfo();
@@ -41,6 +33,15 @@ public abstract class ExtendUser implements User {
     @Override
     public void addAction(String action) {
         listAction.add(action);
+    }
+
+    @Override
+    public void editAction(String beforeAction, String afterAction) {
+        for (int i = 0; i < listAction.size(); i++) {
+            if (listAction.get(i).equals(beforeAction)){
+                listAction.set(i,afterAction);
+            }
+        }
     }
 
     @Override

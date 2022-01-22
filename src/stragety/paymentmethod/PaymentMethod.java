@@ -1,4 +1,4 @@
-package factory.paymentmethod;
+package stragety.paymentmethod;
 
 public interface PaymentMethod {
     String getMethodName();

@@ -2,9 +2,15 @@ package observer;
 
 import java.util.ArrayList;
 
-public abstract class User {
+public class User {
     protected ChatUpdater chatUpdater;
     protected ArrayList<String> listMessage=new ArrayList<>();
+
+    public User(ChatUpdater chatUpdater) {
+        this.chatUpdater =chatUpdater;
+        this.chatUpdater.add(this);
+    }
+
     public void update() {
         listMessage.add(chatUpdater.getChat());
     }

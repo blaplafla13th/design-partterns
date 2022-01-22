@@ -10,5 +10,7 @@ public class Client {
         user=new SuperUser(user);
         System.out.println(user.getInfo());
         user.readListAction();
+        user.setInfo("Hello World!");
+        System.out.println(user.getInfo());
     }
 }

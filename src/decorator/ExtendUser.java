@@ -25,33 +25,21 @@ public abstract class ExtendUser implements User {
     }
 
     public void readListAction() {
-        for (String action : listAction) {
-            System.out.println(action);
-        }
+        user.readListAction();
     }
 
     @Override
     public void createAction(String action) {
-        listAction.add(action);
+        user.createAction(action);
     }
 
     @Override
     public void editAction(String beforeAction, String afterAction) {
-        for (int i = 0; i < listAction.size(); i++) {
-            if (listAction.get(i).equals(beforeAction)){
-                listAction.set(i,afterAction);
-            }
-        }
+        user.editAction(beforeAction, afterAction);
     }
 
     @Override
     public void deleteAction(String action) {
-        for (int i = 0; i < listAction.size(); i++) {
-            if (listAction.get(i).equals(action)){
-                listAction.remove(i);
-                System.out.println("Deleted");
-                return;
-            }
-        }
+        user.deleteAction(action);
     }
 }

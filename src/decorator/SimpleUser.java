@@ -28,14 +28,14 @@ public class SimpleUser implements User {
     }
 
     @Override
-    public void getListAction() {
+    public void readListAction() {
         for (String action : listAction) {
             System.out.println(action);
         }
     }
 
     @Override
-    public void addAction(String action) {
+    public void createAction(String action) {
         listAction.add(action);
     }
 
@@ -49,7 +49,7 @@ public class SimpleUser implements User {
     }
 
     @Override
-    public void removeAction(String action) {
+    public void deleteAction(String action) {
         for (int i = 0; i < listAction.size(); i++) {
             if (listAction.get(i).equals(action)){
                 listAction.remove(i);

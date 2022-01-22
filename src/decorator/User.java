@@ -4,8 +4,8 @@ public interface User {
     String getInfo();
     void setInfo(String info);
     void action(String action);
-    void removeAction(String action);
-    void addAction(String action);
+    void deleteAction(String action);
+    void createAction(String action);
     void editAction(String beforeAction,String afterAction);
-    void getListAction();
+    void readListAction();
 }

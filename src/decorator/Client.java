@@ -6,9 +6,9 @@ public class Client {
         user.setInfo("Blaplafla");
         user=new NormalUser(user);
         System.out.println(user.getInfo());
-        user.getListAction();
+        user.readListAction();
         user=new SuperUser(user);
         System.out.println(user.getInfo());
-        user.getListAction();
+        user.readListAction();
     }
 }

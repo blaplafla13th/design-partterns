@@ -35,6 +35,15 @@ public class SimpleUser implements User {
     }
 
     @Override
+    public ArrayList<String> getListAction() {
+        return listAction;
+    }
+
+    public void setListAction(ArrayList<String> listAction) {
+        this.listAction = listAction;
+    }
+
+    @Override
     public void createAction(String action) {
         listAction.add(action);
     }

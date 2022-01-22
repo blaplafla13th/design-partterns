@@ -3,8 +3,11 @@ package decorator;
 import java.util.ArrayList;
 
 public abstract class ExtendUser implements User {
-    private User user;
-    protected ArrayList<String> listAction=new ArrayList<>();
+    protected User user;
+
+    public ExtendUser() {
+        user = new SimpleUser();
+    }
 
     public ExtendUser(User user) {
         this.user = user;
@@ -17,6 +20,7 @@ public abstract class ExtendUser implements User {
 
     @Override
     public abstract void action(String act);
+
     public abstract void resetActionList();
 
     @Override
@@ -41,5 +45,13 @@ public abstract class ExtendUser implements User {
     @Override
     public void deleteAction(String action) {
         user.deleteAction(action);
+    }
+
+    public ArrayList<String> getListAction() {
+        return user.getListAction();
+    }
+
+    public void setListAction(ArrayList<String> listAction) {
+        user.setListAction(listAction);
     }
 }

@@ -6,13 +6,24 @@ public class SuperUser extends ExtendUser{
         resetActionList();
     }
 
+    public SuperUser() {
+        super();
+        resetActionList();
+    }
+
+    public SuperUser(User user, boolean reset) {
+        super(user);
+        if (reset)
+            resetActionList();
+    }
+
     public void resetActionList(){
-        listAction.clear();
-        listAction.add("Super User action 1");
+        user.getListAction().clear();
+        user.getListAction().add("Super User action 1");
     }
     @Override
     public void action(String action) {
-        for (String act:listAction) {
+        for (String act:user.getListAction()) {
             if (act.equals(action)){
                 System.out.println("Super user do "+action);
                 return;

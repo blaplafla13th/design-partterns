@@ -11,6 +11,11 @@ public class FileInfo implements Command{
     }
 
     @Override
+    public void setFile(File file) {
+        this.file = file;
+    }
+
+    @Override
     public void exec() {
         try {
             String type = (file.isFile())?"File":"Folder";

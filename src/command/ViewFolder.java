@@ -10,6 +10,11 @@ public class ViewFolder implements Command{
     }
 
     @Override
+    public void setFile(File file) {
+        this.file = file;
+    }
+
+    @Override
     public void exec() {
         try {
             File[] list = file.listFiles();

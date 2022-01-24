@@ -12,6 +12,11 @@ public class ViewFile implements Command{
     }
 
     @Override
+    public void setFile(File file) {
+        this.file = file;
+    }
+
+    @Override
     public void exec() {
         try {
             Scanner input = new Scanner(file);

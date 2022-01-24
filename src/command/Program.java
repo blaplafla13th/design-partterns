@@ -16,9 +16,9 @@ public class Program {
     }
 
     public void updatePath(File file){
-        viewFolder=new ViewFolder(file);
-        fileInfo=new FileInfo(file);
-        viewFile=new ViewFile(file);
+        viewFolder.setFile(file);
+        fileInfo.setFile(file);
+        viewFile.setFile(file);
         this.file=file;
     }
 
